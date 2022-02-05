@@ -6,7 +6,7 @@ namespace Howework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine(HW2.GroupAnagrams(new string[] { "eat", "tea", "tan", "ate", "nat", "bat" }));
         }
 
 
