@@ -41,7 +41,7 @@ namespace Howework
         {
             for(int i = 0; i <= n; i++)
             {
-                Console.WriteLine($"Cub of {i} is {i * i * i}");
+                Console.WriteLine($"Cubе of {i} is {i * i * i}");
             }
         }
     }
