@@ -46,13 +46,7 @@ namespace Howework
 
         public static void Task32()
         {
-            var rd = new Random();
-            var arr = new int[8];
-            for(int i = 0; i < arr.Length; i++)
-            {
-                arr[i] = rd.Next(0, 2);
-            }
-            Console.WriteLine($"[{string.Join(',', arr)}]");
+            Console.WriteLine($"[{string.Join(',', new int[8].FillGeneratedValues(0, 2))}]");
         }
     }
 }
