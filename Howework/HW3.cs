@@ -1,9 +1,5 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Numerics;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Howework
 {
@@ -32,8 +28,10 @@ namespace Howework
             Console.WriteLine($"{x}\n{y}");
         }
 
-        public static void Task22(Vector3 x, Vector3 y)
+        public static void Task22()
         {
+            var x = new Vector3(1.0f, 1.0f, 0.0f);
+            var y = new Vector3(8.0f, 1.0f, 0.0f);
             Console.WriteLine($"Distance between x [{x.X}, {x.Y}, {x.Z}] and y [{y.X}, {x.Y}, {x.Z}] is {Vector3.Distance(x, y)}");
         }
 
