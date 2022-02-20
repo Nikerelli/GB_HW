@@ -1,15 +1,12 @@
-﻿using System;
-
-namespace Howework
+﻿namespace Howework
 {
     class Program
     {
         static void Main(string[] args)
         {
-            HW5.Task34();
-            HW5.Task36();
-            HW5.Task38();
-            HW5.Task40();
+            //HW6.Task42();
+            //HW6.Task44(1,2,3,4);
+            HW6.Task46();
         }
 
 
