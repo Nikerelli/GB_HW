@@ -35,5 +35,41 @@ namespace Howework
 
             return arr;
         }
+
+        public static void DisplayArray(this double[][] arr)
+        {
+            Console.Write("{0,-9}", "Column");
+            for (int i = 1; i <= arr[0].Length; i++)
+            {
+                Console.Write($"{i,-8}");
+            }
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("\n#{0,-8}", i + 1);
+                for (int j = 0; j < arr[0].Length; j++)
+                {
+                    Console.Write($"{arr[i][j],-8:#0.0}" );
+                }
+            }
+        }
+        public static void DisplayArray(this int[][] arr)
+        {
+            Console.Write("{0,-9}", "Column");
+            for (int i = 1; i <= arr[0].Length; i++)
+            {
+                Console.Write($"{i,-8}");
+            }
+
+            for (int i = 0; i < arr.Length; i++)
+            {
+                Console.Write("\n#{0,-8}", i + 1);
+                for (int j = 0; j < arr[0].Length; j++)
+                {
+                    Console.Write($"{arr[i][j],-8}" );
+                }
+            }
+        }
+        
     }
 }
