@@ -6,16 +6,19 @@ namespace Howework
     {
         static void Main(string[] args)
         {
-            Console.WriteLine($"\n{nameof(HW7.Task49)}");
-            HW7.Task49(3,4);
-            Console.WriteLine($"\n{nameof(HW7.Task51)}");
-            HW7.Task51(7,3);
-            Console.WriteLine($"\n{nameof(HW7.Task53)}");
-            HW7.Task53(3,10);
-            Console.WriteLine($"\n{nameof(HW7.Task55)}");
-            HW7.Task55(5,5);
+            Console.WriteLine($"\n{nameof(HW8.Task57)}");
+            int[][] arr = new int[8][];
+            for (int i = 0; i < arr.Length; i++)
+            {
+                arr[i] = new int[10].FillGeneratedValues();
+            }
+            HW8.Task57(arr);
+            Console.WriteLine($"\n{nameof(HW8.Task59)}");
+            HW8.Task59(arr);   
+            Console.WriteLine($"\n{nameof(HW8.Task61)}");
+            HW8.Task61();
+            Console.WriteLine($"\n{nameof(HW8.Task63)}");
+            HW8.Task63();
         }
-
-
     }
 }

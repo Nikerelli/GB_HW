@@ -69,6 +69,8 @@ namespace Howework
                     Console.Write($"{arr[i][j],-8}" );
                 }
             }
+            
+            Console.WriteLine();
         }
         
     }
