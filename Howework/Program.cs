@@ -13,6 +13,12 @@ namespace Howework
             HW9.Task66(1,15);
             Console.WriteLine($"\n{nameof(HW9.Task68)}");
             HW9.Task68(1,5);
+            Console.WriteLine($"\n{nameof(HW9.Task72)}");
+            var result = HW9.Task72(new int[] { 0, 1, 1, 1, 1, 0, 0, 0, 1 });
+            foreach(var val in result)
+            {
+                Console.WriteLine(val);
+            }
         }
     }
 }
